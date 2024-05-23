@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>Welcome to My Jekyll Site</h1>
+<h1>Welcome to ARock</h1>
 
 <div class="posts">
   {% for post in site.posts %}
@@ -13,3 +13,5 @@ layout: default
     </div>
   {% endfor %}
 </div>
+
+[About](/about/)
