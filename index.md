@@ -14,8 +14,6 @@ layout: default
   {% endfor %}
 </div>
 
-[Posts]({{ site.github.url }}/posts)
-
-[HTML Pages]({{ site.github.url }}/html)
+[HTML Pages]({{ site.github.url }}/html/test.html)
 
 [About]({{ site.github.url }}/about)
