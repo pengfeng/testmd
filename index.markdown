@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+This is the home page from index.markdown. It is written in markdown.
