@@ -4,7 +4,7 @@ layout: default
 
 <h1>Welcome to ARock</h1>
 
-<h2> Recent Posts </h2>
+<h2> Recent Markdown Posts </h2>
 
 <div class="posts">
   {% for post in site.posts %}
@@ -16,7 +16,9 @@ layout: default
   {% endfor %}
 </div>
 
-<h2> Pages </h2>
+<hr/>
+
+<h2> HTML Pages </h2>
 [HTML Pages]({{ site.github.url }}/html/test.html)
 
 [About]({{ site.github.url }}/about)
