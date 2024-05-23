@@ -7,11 +7,11 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <div class="post">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{site.github.url}}{{ post.url }}">{{ post.title }}</a></h2>
       <p>{{ post.excerpt }}</p>
-      <p><a href="{{ post.url }}">Read more</a></p>
+      <p><a href="{{site.github.url}}{{ post.url }}">Read more</a></p>
     </div>
   {% endfor %}
 </div>
 
-[About](/about/)
+[About]({{ "{{site.github.url}}/about/" }})
